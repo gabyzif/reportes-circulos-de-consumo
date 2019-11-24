@@ -1,0 +1,40 @@
+.tableCirculosDeConsumo {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    
+  }
+  
+  .tableCirculosDeConsumo td, .tableCirculosDeConsumo th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: #ccc;
+  }
+  
+  .tableCirculosDeConsumo tr:nth-child(even){background-color: #b8cc4a;}
+  
+  .tableCirculosDeConsumo tr:hover {background-color: #ddd;}
+  
+  .tableCirculosDeConsumo th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #b8cc4a;
+    color: white;
+  }
+
+  div#wpfooter {
+    display: none;
+}
+
+button {
+    background-color: #261e1c; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 20px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
